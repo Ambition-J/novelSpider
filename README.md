@@ -1,23 +1,16 @@
-# magical
+# 笔趣阁爬虫
 
-[![Build Status](https://travis-ci.org/The owner of the repository. Either your github username or organization name./magical.svg?branch=master)](https://travis-ci.org/The owner of the repository. Either your github username or organization name./magical)
-[![Built with](https://img.shields.io/badge/Built_with-Cookiecutter_Django_Rest-F7B633.svg)](https://github.com/agconti/cookiecutter-django-rest)
+######  url:http://www.xbiquge.la/
 
-magical backeend. Check out the project's [documentation](http://The owner of the repository. Either your github username or organization name..github.io/magical/).
+#### 运行方式
 
-# Prerequisites
-
-- [Docker](https://docs.docker.com/docker-for-mac/install/)  
-
-# Local Development
-
-Start the dev server for local development:
-```bash
-docker-compose up
 ```
+    pip install -r requirements.txt
 
-Run a command inside the docker container:
+    建好数据库       
 
-```bash
-docker-compose run --rm web [command]
+    运行 models.py
+
+    运行 spider.py
+
 ```
