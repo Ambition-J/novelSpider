@@ -215,7 +215,7 @@ def parse_novel_chapter(chapter_url):
             chapter.next_chapter = get_chapter_id(chapter_next_btn[0])
 
         if '.html' in chapter_pre_btn[0]:
-            chapter.pre_chapter = get_chapter_id(chapter_next_btn[0])
+            chapter.pre_chapter = get_chapter_id(chapter_pre_btn[0])
 
         chapter.save(force_insert=True)
         print('爬取章节{}结束'.format(chapter_title[0]))
