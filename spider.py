@@ -165,7 +165,7 @@ def parse_novel_chapter(chapter_url):
         "Accept-Language": "en,zh;q=0.9,ar;q=0.8,zh-CN;q=0.7,zh-TW;q=0.6,zh-HK;q=0.5",
         "Cache-Control": "no-cache",
         "Connection": "keep-alive",
-        "Host": "www.biquku.la",
+        "Host": "",
         "Pragma": "no-cache",
         "Sec-Fetch-Dest": "document",
         "Sec-Fetch-Mode": "navigate",
