@@ -25,7 +25,7 @@ chrome_options.add_argument("--disable-gpu")
 chrome_options.add_argument("blink-settings=imagesEnabled=false")
 
 # 笔趣阁的主路径
-domain = 'http://www.biquku.la/'
+domain = ''
 
 executor = ThreadPoolExecutor(max_workers=10)
 
