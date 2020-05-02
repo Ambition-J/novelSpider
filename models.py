@@ -43,6 +43,6 @@ class NovelChapter(BaseModel):
     next_chapter = IntegerField(null=True, verbose_name='下一章ID')
     create_time = DateTimeField(default=datetime.now, verbose_name='创建时间')
 
-
+    
 if __name__ == '__main__':
     db.create_tables([NovelCategories, NovelContent, NovelChapter])
