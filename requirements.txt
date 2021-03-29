@@ -70,7 +70,7 @@ pycodestyle==2.5.0
 pycparser==2.20
 PyDispatcher==2.0.5
 pyflakes==2.1.1
-Pygments==2.5.2
+Pygments==2.7.4
 PyHamcrest==2.0.2
 PyMySQL==0.9.3
 pyOpenSSL==19.1.0
